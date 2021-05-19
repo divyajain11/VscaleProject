@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(113, 4, 238);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo div{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Alatsi', sans-serif;
+}
+#logo img{
+    height: 26px;
+    margin: 3px 6px;
+}
+
+/* Navigation Menu */
+.topnav{
+    display: flex;
+    margin-left: 450px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+/* Icon 1 */
+#home-icon1 img{
+    height: 230px;
+    float: right;
+}
+/* Body Text */
+.body-text {
+    height: 343px;
+}
+#heading{
+    font-size: 2.7rem;
+    font-family: 'Alatsi', sans-serif;
+    padding: 0px 430px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#break-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.body-text h3{
+    padding: 0px 495px;
+    padding-top: 35px;
+    font-family: 'Commissioner', sans-serif;
+    text-align: center;
+}
+/* Buttons */
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#btn1{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+#btn2{
+    color:rgb(59, 59, 59);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/* Icon 2 */
+#home-icon2 img{
+    height: 320px;
+}
+
+/* Title */
+.title{
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    
+}
+
+#underline{    
+    margin-left: 50px;    
+    display: inline;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+/* Featured Projects */
+.featured-projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box */
+.box{
+    margin: 50px 65px;    
+    margin-inline-start:65px;
+    padding: 10px 20px;
+    padding-right: 0px;
+    border: 2px solid rgb(241, 212, 240);
+    width: 20%;
+    height: 230px;
+    border-radius: 10px;
+    background-color: rgb(241, 212, 240);
+    
+}
+
+/* Inside the Box */
+.box h2{
+    font-family: 'Alatsi', sans-serif;   
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+}
+.coin img{
+    display: inline;
+    height: 45px;
+       
+}
+#coin-img{
+    margin-bottom: 10px;
+}
+
+
+.intwodays{
+    display: inline;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(90, 8, 156);
+    margin-left: 135px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-family: 'Alatsi', sans-serif;
+}
+.intwodays img{
+    height: 15px;
+}
+
+.box h4{
+    font-family: 'Alatsi', sans-serif;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.total-rise{
+    color: rgb(175, 24, 175);
+}
+
+.box-end{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Alatsi', sans-serif;
+    justify-content:flex-start;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: column;
+    margin: 22px 0px;
+    margin-right: 32px;
+}
+
+.vertical1{
+    font-size: 0.8rem;
+}
+
+.vertical2{
+    color: rgb(175, 24, 175);
+    font-size: 1.2rem;
+}
